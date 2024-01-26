@@ -1,0 +1,23 @@
+:root {
+  --var-page-height: 100vh;
+}
+
+.all-page {
+  width: 100vw;
+  min-height: var(--var-page-height);
+}
+
+.top h1 {
+  animation: top 600ms linear;
+}
+
+@keyframes top {
+  0% {
+    transform: translateY(-0.7em);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
