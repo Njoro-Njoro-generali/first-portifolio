@@ -56,7 +56,10 @@ const Home = () => {
           <button>Download CV</button>
         </div>
         <div className="animation-side">
-          <img src="images/dev.jpeg" alt="photo of developer" />
+          <img
+            src="C:/Users/User/projects/CPortifolio/src/components/images/developer.jpeg"
+            alt="photo of developer"
+          />
           <div className="circle">
             <div className="circle-content">
               <TbSquareLetterM />
