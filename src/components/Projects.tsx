@@ -40,7 +40,7 @@ const Projects = () => {
         <div
           className="project"
           style={{
-            background: `url(images/${projects[index]}.jpg)`,
+            background: `url(dist/images/${projects[index]}.jpg)`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}
